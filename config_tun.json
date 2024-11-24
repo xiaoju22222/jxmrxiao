@@ -14,8 +14,6 @@
     },
     "cache_file": {
       "enabled": true
-      "path": "/etc/sing-box",
-      "store_fakeip", false
     }
   },
   "dns": {
