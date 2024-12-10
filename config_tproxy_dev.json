@@ -50,9 +50,9 @@
 ],
 
   "outbounds": [
-    { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["🔯 香港自动", "🔯 美国自动"] },
-    { "tag": "📹 YouTube", "type": "selector", "outbounds": ["🔯 香港自动", "🔯 美国自动"] },
-    { "tag": "🤖 OpenAI", "type": "selector", "outbounds": ["🔯 台日新韩自动", "🔯 香港自动", "🔯 美国自动"] },
+    { "tag": "🚀 节点选择", "type": "selector", "outbounds": ["🔯 香港自动", "🔯 美国自动", "🔯 自建节点"] },
+    { "tag": "📹 YouTube", "type": "selector", "outbounds": ["🔯 香港自动", "🔯 美国自动", "🔯 自建节点"] },
+    { "tag": "🤖 OpenAI", "type": "selector", "outbounds": ["🔯 台日新韩自动", "🔯 香港自动", "🔯 美国自动", "🔯 自建节点"] },
     { "tag": "🍀 Google", "type": "selector", "outbounds": ["🔯 港台日新韩自动", "🔯 香港自动", "🔯 美国自动"] },
     { "tag": "👨‍💻 Github", "type": "selector", "outbounds": ["🔯 香港自动", "🔯 美国自动"] },
     { "tag": "🪟 Microsoft", "type": "selector", "outbounds": ["🔯 香港自动", "🔯 美国自动", "🎯 全球直连"] },
@@ -61,7 +61,7 @@
     { "tag": "🎥 Netflix", "type": "selector", "outbounds": ["🔯 美国自动"] },
     { "tag": "📲 Telegram", "type": "selector", "outbounds": ["🔯 港台日新韩自动"] },  
     { "tag": "🍏 Apple", "type": "selector", "outbounds": ["🎯 全球直连", "🔯 香港自动", "🔯 美国自动"] },
-    { "tag": "🐠 漏网之鱼", "type": "selector", "outbounds": ["🔯 香港自动", "🔯 美国自动"] },
+    { "tag": "🐠 漏网之鱼", "type": "selector", "outbounds": ["🔯 香港自动", "🔯 美国自动", "🔯 自建节点"] },
     { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"]},
     { "tag": "🔯 香港自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
     { "tag": "🔯 美国自动", "type": "urltest", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["USA|美国|United States"] }], "url": "http://www.gstatic.com/generate_204", "interval": "10m", "tolerance": 50 },
